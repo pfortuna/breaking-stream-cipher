@@ -1,0 +1,5 @@
+node_modules/
+encrypted/src.tar
+key.txt
+package-lock.json
+src/
