@@ -6,8 +6,8 @@ KEYFILE=key.txt
 
 ## dont edit past this line
 
-if [ -f "../$KEYFILE" ]; then
-   echo "Oops! Looks like you haven't yet created a $KEYFILE with the correct GPG passphrase!"
+if [ ! -f $KEYFILE ]; then
+   echo "Oops! Looks like you haven't yet created a $KEYFILE with the GPG passphrase!"
    exit -1
 fi
 
