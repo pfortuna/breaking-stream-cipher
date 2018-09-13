@@ -26,5 +26,6 @@ You must have `gpg2` and `tar` pre-installed in your computer.
 It's as easy as this:
 
 ```
+npm install
 npm start
 ```
